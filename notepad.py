@@ -35,7 +35,7 @@ b2.pack(in_=top, side=LEFT)
 b3 = Button(canvas, text="Clear", bg="white", command=clearFile)
 b3.pack(in_=top, side=LEFT)
 
-b4 = Button(canvas, text="Exit", bg="white", command=exit)
+b4 = Button(canvas, text="Exit", bg="red", command=exit)
 b4.pack(in_=top, side=LEFT)
 
 entry = Text(canvas, bg="#FFFFCC", font =("poppins", 15))
